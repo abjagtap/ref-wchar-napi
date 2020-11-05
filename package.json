@@ -4,7 +4,7 @@
   "description": "A ref \"type\" implementation of `wchar_t *` (a.k.a. wide string) backed by \"node-iconv\". Supports Node 6, 7, 8, 10, 12.",
   "main": "index.js",
   "scripts": {
-    "test": "node-gyp rebuild --directory test && mocha -gc --reporter spec"
+    "test": "node-gyp rebuild --directory test && mocha --expose-gc --exit"
   },
   "repository": {
     "type": "git",
@@ -34,7 +34,7 @@
   },
   "devDependencies": {
     "bindings": "~1.2.0",
-    "mocha": "2",
+    "mocha": "6",
     "nan": "2"
   }
 }
