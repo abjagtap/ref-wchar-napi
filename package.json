@@ -30,7 +30,7 @@
   "homepage": "https://github.com/Janealter/ref-wchar-napi",
   "dependencies": {
     "iconv": "2",
-    "ref-napi": "^1.4.2"
+    "ref-napi": "^3.0.1"
   },
   "devDependencies": {
     "bindings": "~1.2.0",
